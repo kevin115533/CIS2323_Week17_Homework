@@ -14,4 +14,8 @@ public class NonFiction extends Book {
 	public void setPrice(){
 		price = 37.99;
 	}
+	public void printBook(){
+		System.out.println("Non-Fiction Title: " + getTitle() +
+						   " Price: " + getPrice());
+	}
 }

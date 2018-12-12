@@ -14,4 +14,9 @@ public class Fiction extends Book {
 	public void setPrice(){
 		price = 24.99;
 	}
+	
+	public void printBook(){
+		System.out.println("Fiction Title: " + getTitle() +
+						   " Price: " + getPrice());
+	}
 }
